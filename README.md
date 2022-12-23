@@ -13,7 +13,7 @@
 * NRP   : 5025211211
 ---
 
-![image](https://user-images.githubusercontent.com/116176265/209330562-708c3d89-4fc7-4ed7-a02c-75d7a17dca87.png)
+![image](https://user-images.githubusercontent.com/116176265/209330717-36372a08-8edb-464c-a206-8e01d3a166c3.png)
 ![image](https://user-images.githubusercontent.com/116176265/209330582-de38e672-b567-49dc-8819-2e83bd95b582.png)
 
 ---
