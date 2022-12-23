@@ -14,10 +14,11 @@ def trapezoidal(a, b, n):
     s *= h/2
     return s
 
-# Mengambil input untuk nilai a, b, dan n
+# Mengambil input untuk nilai a, b, n, dan true_result
 a = int(input("Masukkan batas bawah: "))
 b = int(input("Masukkan batas atas: "))
 n = int(input("Masukkan jumlah interval: "))
+true_result = float(input("Masukkan nilai asli: "))
 print("")
 
 # Menghitung nilai integral dengan metode Trapezoidal
@@ -26,13 +27,8 @@ result_trapezoidal = trapezoidal(a, b, n)
 # Menghitung nilai integral dengan metode Integrasi Romberg, menggunakan scipy.integrate.romberg()
 result_romberg = integrate.romberg(lambda x: f(x), a, b, show=True)
 
-# hasil sebenarnya dari integral x^3 dari a sampai b
-result = integrate.quad(lambda x: f(x), a, b)[0]
-true_result = float(''.join(str(result)))
-
 # Menampilkan hasil perhitungan
-print("\nMetode Integrasi Analitik:", true_result)
-print("Metode Integrasi Trapezoidal:", result_trapezoidal)
+print("\nMetode Integrasi Trapezoidal:", result_trapezoidal)
 print("Metode Integrasi Romberg:", result_romberg)
 
 # Menghitung nilai error
